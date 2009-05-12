@@ -143,7 +143,7 @@ class Languess():
                 results.append( (lang, score) )
 
         if len(results) == 1:
-            return results[0][0]
+            return [(results[0][0],100)]
 
         # we got some results, sort it, and return the score
         # in a percentaje fashion
